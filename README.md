@@ -47,11 +47,7 @@ Choose one of the following options to get started:
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
+you mustbe install your local machin nodejs & npm.
 
 ### Installing
 
