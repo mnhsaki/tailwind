@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="./screenshot1.png" alt="Project logo"></a>
+ <img width=100% height=100% src="./screenshot1.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">tailwind</h3>
