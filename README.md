@@ -27,10 +27,8 @@
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -57,29 +55,53 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+1. Clone the repository:
 
-Say what the step will be
+   ```bash
+   git clone https://github.com/mnhsaki/tailwind.git
 
-```
-Give the example
-```
+   cd tailwind
+   ```
 
-And repeat
+2. Install the dependencies:
 
-```
-until finished
-```
+   ```bash
+   # Using npm
+   npm install
 
-End with an example of getting some data out of the system or using it for a little demo.
+   # Using Yarn
+   yarn
+   ```
 
-## 🎈 Usage <a name="usage"></a>
+3. Start the development server:
 
-Add notes about how to use the system.
+   ```bash
+   # Using npm
+   npm run serve
+
+   # Using Yarn
+   yarn run serve
+   ```
+
+   Now you should be able to see the project running at localhost:8080.
+
+4. Open `index.html` in your editor and start experimenting!
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-Add additional notes about how to deploy this on a live system.
+Even though this isn't necessarily a starter kit for a proper project, we've included an example of setting up both [Purgecss](https://www.purgecss.com/) and [cssnano](https://cssnano.co/) to optimize your CSS for production.
+
+To build an optimized version of your CSS, simply run:
+
+```bash
+# Using npm
+npm run production
+
+# Using Yarn
+yarn run production
+```
+
+After that's done, check out `tailwind.css` to see the optimized output.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
@@ -93,9 +115,3 @@ Add additional notes about how to deploy this on a live system.
 - [@mnh.saki](https://github.com/mnhsaki) - Idea & Initial work
 
 See also the list of [contributors](https://github.com/mnhsaki/tailwind/graphs/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
